@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Movies
+
+  Created by Rubens Pessoa on 4/26/18.
+  Copyright © 2018 Ilhasoft. All rights reserved.
+*/
+
+"begin" = "Começar";
+"collect" = "Colecione";
+"collect_description" = "Adicione seus filmes favoritos em seu perfil";
+"direction" = "Direção";
+"duration" = "Duração";
+"genre" = "Gênero";
+"login" = "Entrar com o Facebook";
+"main_actors" = "Atores Principais";
+"movie" = "Filme";
+"movie_description" = "Busque por centenas de filmes em nosso catálogo";
+"oops" = "Oops!";
+"release" = "Lançamento";
+"synopsis" = "Sinopse";
+"sound_track" = "Trilha Sonora";
+"technical_sheet" = "Ficha Técnica";
+"title" = "IlhaMovies";
+"try_again" = "Tente de novo!";

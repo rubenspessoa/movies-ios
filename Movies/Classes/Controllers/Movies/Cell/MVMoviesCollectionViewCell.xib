@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MoviesCell" id="gTV-IL-0wX" customClass="MVMoviesCollectionViewCell" customModule="Movies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="110" height="174"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="110" height="174"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ApN-n7-dZe" userLabel="movie cover">
+                        <rect key="frame" x="0.0" y="0.0" width="110" height="174"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_hold" translatesAutoresizingMaskIntoConstraints="NO" id="Nhw-pQ-9fg">
+                        <rect key="frame" x="35" y="72" width="41" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="41" id="Xzk-ij-cBu"/>
+                            <constraint firstAttribute="height" constant="31" id="hcy-4E-bct"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Nhw-pQ-9fg" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="ben-WX-lcV"/>
+                <constraint firstItem="Nhw-pQ-9fg" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="p5x-Pm-ESP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="110" height="174"/>
+            <connections>
+                <outlet property="movieCover" destination="ApN-n7-dZe" id="tKz-W8-cqB"/>
+                <outlet property="placeholder" destination="Nhw-pQ-9fg" id="pWI-V1-cVM"/>
+            </connections>
+            <point key="canvasLocation" x="-10" y="7"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="place_hold" width="41" height="31"/>
+    </resources>
+</document>

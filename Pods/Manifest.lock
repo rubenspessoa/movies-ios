@@ -1,0 +1,85 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.28.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.28.0):
+    - FBSDKCoreKit
+  - MBProgressHUD (1.1.0)
+  - ObjectMapper (3.1.0)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - Parse/FacebookUtils (1.17.1):
+    - FBSDKCoreKit (~> 4.28.0)
+    - FBSDKLoginKit (~> 4.28.0)
+    - FBSDKShareKit (~> 4.28.0)
+    - FBSDKTVOSKit (~> 4.28.0)
+    - Parse/Core
+  - RxAlamofire (4.2.0):
+    - RxAlamofire/Core (= 4.2.0)
+  - RxAlamofire/Core (4.2.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 3.3)
+  - AlamofireObjectMapper (~> 5.0)
+  - MBProgressHUD (~> 1.1)
+  - ObjectMapper (~> 3.1)
+  - Parse (~> 1.17)
+  - Parse/FacebookUtils
+  - RxAlamofire (~> 4.1)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SnapKit (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - MBProgressHUD
+    - ObjectMapper
+    - Parse
+    - RxAlamofire
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: ca961e279113f691fd83dc634c0bbad9d4e3f370
+  FBSDKLoginKit: b077381c27d800f21661757e8140cf2c80a91e4a
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: afe67e2b05134840b856b63148d4c4797df7a870
+
+COCOAPODS: 1.5.2
